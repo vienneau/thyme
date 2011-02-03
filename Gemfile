@@ -1,11 +1,13 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.3'
-gem 'mysql2'
+gem 'mysql2', '~> 0.2'
 
 group :development, :test do
   gem 'ruby-debug19', '~> 0.11'
   gem 'rspec-rails', '~> 2.4'
+  gem 'cucumber-rails', '~> 0.3'
+  gem 'webrat', '~> 0.7'
 end
 
 # Use unicorn as the web server
